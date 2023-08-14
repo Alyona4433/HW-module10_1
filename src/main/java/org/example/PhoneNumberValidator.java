@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class PhoneNumberValidator {
 
     public static void main(String[] args) {
-        readAndPrintValidPhoneNumbers("file.txt");
+        readAndPrintValidPhoneNumbers("src/main/java/org/example/file.txt");
     }
 
     public static void readAndPrintValidPhoneNumbers(String fileName) {

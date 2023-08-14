@@ -10,7 +10,7 @@ import java.util.List;
 public class UserJsonConverter {
 
     public static void main(String[] args) {
-        List<User> users = readUsersFromFile("file.txt");
+        List<User> users = readUsersFromFile("src/main/java/org/example/file2.txt");
         writeUsersToJsonFile(users, "user.json");
     }
 
